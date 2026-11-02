@@ -48,7 +48,7 @@
     <nav class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md z-50 border-b border-slate-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
-                <div class="flex items-center space-x-3">
+                <a href="#" class="flex items-center space-x-3">
                     <div class="w-10 h-10 rounded-full bg-gradient-brand flex items-center justify-center text-white font-bold text-lg shadow-md flex-shrink-0">
                         AR
                     </div>
@@ -56,20 +56,22 @@
                         <span class="text-base sm:text-xl font-bold text-slate-900 block leading-tight">Ana Raquel Marques</span>
                         <span class="text-[11px] sm:text-xs text-brand-blue font-semibold block">Psicóloga Clínica • CRP 04/60897</span>
                     </div>
-                </div>
+                </a>
                 
                 <!-- Menu Desktop -->
-                <div class="hidden md:flex items-center space-x-8">
+                <div class="hidden md:flex items-center space-x-7">
                     <a href="#sobre" class="text-slate-600 hover:text-brand-blue font-medium transition-colors text-sm">Sobre Mim</a>
                     <a href="#especialidades" class="text-slate-600 hover:text-brand-blue font-medium transition-colors text-sm">Especialidades</a>
+                    <a href="#experiencia" class="text-slate-600 hover:text-brand-blue font-medium transition-colors text-sm">Experiência</a>
                     <a href="#formacao" class="text-slate-600 hover:text-brand-blue font-medium transition-colors text-sm">Formação</a>
                     <a href="#como-funciona" class="text-slate-600 hover:text-brand-blue font-medium transition-colors text-sm">Como Funciona</a>
+                    <a href="#contato" class="text-slate-600 hover:text-brand-blue font-medium transition-colors text-sm">Contato</a>
                     <a href="https://wa.me/5534997764543?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-5 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all flex items-center gap-2 text-sm">
                         <i class="fa-brands fa-whatsapp text-lg"></i> Agendar Consulta
                     </a>
                 </div>
 
-                <!-- Botão Menu Mobile (Interativo) -->
+                <!-- Botão Menu Mobile -->
                 <div class="md:hidden flex items-center">
                     <button id="menu-btn" type="button" aria-label="Abrir Menu" class="text-slate-700 hover:text-brand-blue focus:outline-none p-2 rounded-lg border border-slate-200 active:bg-slate-100">
                         <i class="fa-solid fa-bars text-2xl"></i>
@@ -79,14 +81,19 @@
         </div>
 
         <!-- Menu Dropdown Mobile Otimizado -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-6 pt-4 pb-6 space-y-4 shadow-xl max-h-[calc(100vh-5rem)] overflow-y-auto">
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-6 pt-4 pb-6 space-y-3 shadow-xl max-h-[calc(100vh-5rem)] overflow-y-auto">
             <a href="#sobre" class="block text-slate-700 font-semibold py-2 border-b border-slate-100 text-base">Sobre Mim</a>
             <a href="#especialidades" class="block text-slate-700 font-semibold py-2 border-b border-slate-100 text-base">Especialidades</a>
+            <a href="#experiencia" class="block text-slate-700 font-semibold py-2 border-b border-slate-100 text-base">Experiência Profissional</a>
             <a href="#formacao" class="block text-slate-700 font-semibold py-2 border-b border-slate-100 text-base">Formação & Qualificações</a>
             <a href="#como-funciona" class="block text-slate-700 font-semibold py-2 border-b border-slate-100 text-base">Como Funciona a Terapia</a>
-            <div class="pt-2">
+            <a href="#contato" class="block text-slate-700 font-semibold py-2 border-b border-slate-100 text-base">Canais de Contato</a>
+            <div class="pt-2 space-y-2">
                 <a href="https://wa.me/5534997764543?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" class="block w-full text-center bg-emerald-500 text-white font-bold py-3.5 rounded-xl shadow-md">
-                    <i class="fa-brands fa-whatsapp text-xl mr-2"></i> Agendar Consulta no WhatsApp
+                    <i class="fa-brands fa-whatsapp text-xl mr-2"></i> WhatsApp: (34) 99776-4543
+                </a>
+                <a href="https://www.instagram.com/anaraquel.psi/" target="_blank" class="block w-full text-center bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-3.5 rounded-xl shadow-md">
+                    <i class="fa-brands fa-instagram text-xl mr-2"></i> Instagram: @anaraquel.psi
                 </a>
             </div>
         </div>
@@ -99,16 +106,16 @@
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                     <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-slate-200 shadow-sm text-xs sm:text-sm font-semibold text-brand-blue">
                         <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-                        Atendimentos On-line • Tarde e Noite
+                        Atendimentos On-line • Períodos da Tarde e Noite
                     </div>
                     <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
                         Cuidado psicoterapêutico para <span class="text-gradient-brand">TDAH, Depressão</span> e Saúde Emocional.
                     </h1>
                     <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                        Um espaço seguro e confidencial para adultos que enfrentam os desafios do TDAH, o desânimo da depressão ou buscam autoconhecimento e regulação emocional. Psicoterapia 100% on-line com escuta ética e acolhedora.
+                        Um espaço seguro e confidencial para quem enfrenta os desafios do TDAH, o desânimo da depressão ou busca autoconhecimento e regulação emocional. Psicoterapia 100% on-line com escuta ética e acolhedora.
                     </p>
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
-                        <a href="https://wa.me/5534997764543?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20atendimento" target="_blank" class="w-full sm:w-auto bg-gradient-brand hover:opacity-95 text-white font-bold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all text-center flex items-center justify-center gap-3">
+                        <a href="https://wa.me/5534997764543?text=Olá,%20gostaria%20de%20informações%20sobre%20atendimento%20psicológico" target="_blank" class="w-full sm:w-auto bg-gradient-brand hover:opacity-95 text-white font-bold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all text-center flex items-center justify-center gap-3">
                             <i class="fa-brands fa-whatsapp text-xl"></i> Agendar Sessão On-line
                         </a>
                         <a href="#sobre" class="w-full sm:w-auto bg-white hover:bg-slate-100 text-slate-700 font-semibold px-8 py-4 rounded-xl border border-slate-200 shadow-sm transition-all text-center">
@@ -117,11 +124,11 @@
                     </div>
                     <div class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs sm:text-sm text-slate-500">
                         <span class="flex items-center gap-1.5"><i class="fa-solid fa-id-card text-brand-cyan"></i> CRP: 04/60897</span>
-                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-laptop text-brand-cyan"></i> Atendimento 100% On-line</span>
+                        <span class="flex items-center gap-1.5"><i class="fa-solid fa-laptop text-brand-cyan"></i> Atendimentos On-line desde 2020</span>
                     </div>
                 </div>
 
-                <!-- Foto Real da Profissional (Responsiva para Celular) -->
+                <!-- Foto Real da Profissional -->
                 <div class="lg:col-span-5 flex justify-center">
                     <div class="relative w-60 h-60 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full p-2 bg-gradient-brand shadow-2xl">
                         <div class="w-full h-full rounded-full bg-white overflow-hidden border-4 border-white shadow-inner">
@@ -134,55 +141,73 @@
     </section>
 
     <!-- Seção Sobre Mim -->
-    <section id="sobre" class="py-16 sm:py-20 bg-white">
+    <section id="sobre" class="py-16 md:py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
-                <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Sobre Mim</h2>
-                <div class="w-20 h-1.5 bg-gradient-brand mx-auto my-4 rounded-full"></div>
-                <p class="text-slate-600 text-base sm:text-lg leading-relaxed mt-4">
-                    Professora desde 2010 e psicóloga desde 2020. A minha trajetória combina a paixão pela educação, a escuta atenta da linguagem e a dedicação ao cuidado da saúde mental, com foco em adultos, TDAH, quadros depressivos e ansiedade.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 sm:gap-6">
-                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-12 h-12 bg-brand-cyan/10 text-brand-blue rounded-xl flex items-center justify-center text-2xl font-bold mb-4">
-                        <i class="fa-solid fa-puzzle-piece"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Suporte ao TDAH</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Auxílio prático na organização de rotinas, gestão do tempo, controle da desatenção e superação da procrastinação.
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900">
+                        Prazer, <span class="text-brand-blue">Ana Raquel Marques</span>
+                    </h2>
+                    <p class="text-base sm:text-lg text-slate-600 leading-relaxed">
+                        Sou professora desde 2010 e psicóloga clínica desde 2020. A minha trajetória combina a paixão pelo ensino, a escuta atenta da linguagem e a dedicação integral ao cuidado da saúde mental humana.
                     </p>
+                    <p class="text-base sm:text-lg text-slate-600 leading-relaxed">
+                        Graduada em Letras pela UFU e em Psicologia pela UNITRI, possuo especializações em Sexualidade Humana, Psicologia Puerperal, Psicomotricidade e Gestão Escolar. Atuo com psicoterapia 100% on-line nos períodos da tarde e da noite, oferecendo um acolhimento ético, seguro e sem julgamentos.
+                    </p>
+
+                    <!-- Habilidades do Currículo -->
+                    <div class="pt-2">
+                        <h4 class="font-bold text-slate-900 text-sm mb-3 uppercase tracking-wider text-brand-blue">Habilidades Profissionais</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-brand-light text-brand-blue font-semibold text-xs px-3.5 py-1.5 rounded-full border border-slate-200"><i class="fa-solid fa-check text-brand-cyan mr-1.5"></i>Inteligência Emocional</span>
+                            <span class="bg-brand-light text-brand-blue font-semibold text-xs px-3.5 py-1.5 rounded-full border border-slate-200"><i class="fa-solid fa-check text-brand-cyan mr-1.5"></i>Comunicação Ativa</span>
+                            <span class="bg-brand-light text-brand-blue font-semibold text-xs px-3.5 py-1.5 rounded-full border border-slate-200"><i class="fa-solid fa-check text-brand-cyan mr-1.5"></i>Gestão de Pessoas</span>
+                            <span class="bg-brand-light text-brand-blue font-semibold text-xs px-3.5 py-1.5 rounded-full border border-slate-200"><i class="fa-solid fa-check text-brand-cyan mr-1.5"></i>Tomada de Decisões</span>
+                            <span class="bg-brand-light text-brand-blue font-semibold text-xs px-3.5 py-1.5 rounded-full border border-slate-200"><i class="fa-solid fa-check text-brand-cyan mr-1.5"></i>Resolução de Problemas Difíceis</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-12 h-12 bg-brand-cyan/10 text-brand-blue rounded-xl flex items-center justify-center text-2xl font-bold mb-4">
-                        <i class="fa-solid fa-cloud-sun"></i>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 bg-brand-cyan/10 text-brand-blue rounded-xl flex items-center justify-center text-2xl font-bold mb-4">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Suporte ao TDAH</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Organização de rotinas, gestão do tempo, controle da desatenção e superação da procrastinação.
+                        </p>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Manejo da Depressão</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Acolhimento para momentos de desânimo, sobrecarga e perda de sentido, promovendo o resgate gradual da vitalidade.
-                    </p>
-                </div>
 
-                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-12 h-12 bg-brand-cyan/10 text-brand-blue rounded-xl flex items-center justify-center text-2xl font-bold mb-4">
-                        <i class="fa-solid fa-brain"></i>
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 bg-brand-cyan/10 text-brand-blue rounded-xl flex items-center justify-center text-2xl font-bold mb-4">
+                            <i class="fa-solid fa-cloud-sun"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Manejo da Depressão</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Acolhimento para fases de tristeza profunda, sobrecarga e perda de motivação, resgatando a vitalidade.
+                        </p>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Inteligência Emocional</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Apoio no desenvolvimento do autoconhecimento, regulação afetiva e na resolução de conflitos interpessoais.
-                    </p>
-                </div>
 
-                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
-                    <div class="w-12 h-12 bg-brand-cyan/10 text-brand-blue rounded-xl flex items-center justify-center text-2xl font-bold mb-4">
-                        <i class="fa-solid fa-shield-heart"></i>
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 bg-brand-cyan/10 text-brand-blue rounded-xl flex items-center justify-center text-2xl font-bold mb-4">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Inteligência Emocional</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Autoconhecimento, regulação dos sentimentos e habilidades para lidar com conflitos.
+                        </p>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-900 mb-2">Acolhimento Especializado</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Especialização direcionada para questões relativas à Sexualidade Humana e suporte no período da Psicologia Puerperal.
-                    </p>
+
+                    <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-12 h-12 bg-brand-cyan/10 text-brand-blue rounded-xl flex items-center justify-center text-2xl font-bold mb-4">
+                            <i class="fa-solid fa-shield-heart"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Sexualidade & Puerpério</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Especialização em Sexualidade Humana e suporte emocional no período da Psicologia Puerperal.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -194,16 +219,308 @@
             <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
                 <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Áreas de Atuação</h2>
                 <div class="w-20 h-1.5 bg-gradient-brand mx-auto my-4 rounded-full"></div>
-                <p class="text-slate-600 text-base sm:text-lg">Áreas de especialização dedicadas ao seu bem-estar, equilíbrio emocional e desenvolvimento pessoal.</p>
+                <p class="text-slate-600 text-base sm:text-lg">Áreas de especialização dedicadas ao seu desenvolvimento pessoal, saúde mental e bem-estar.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                
-                <!-- TDAH -->
+                <!-- Card TDAH -->
                 <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all">
                     <div class="w-14 h-14 bg-brand-light text-brand-blue rounded-2xl flex items-center justify-center text-2xl mb-6">
                         <i class="fa-solid fa-puzzle-piece"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900 mb-3">TDAH em Adultos</h3>
                     <p class="text-slate-600 text-sm leading-relaxed">
-                        Acompanhamento terapêutico focado nas dificuldades de atenção, hiperatividade mental
+                        Acompanhamento focado em desatenção, hiperatividade mental, procrastinação, planejamento e estratégias práticas para lidar com a disfunção executiva.
+                    </p>
+                </div>
+
+                <!-- Card Depressão -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-light text-brand-blue rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-cloud-sun"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Depressão & Transtornos de Humor</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Cuidado sensível para momentos de tristeza profunda, desânimo, sobrecarga emocional e desmotivação, auxiliando na recuperação do sentido e da qualidade de vida.
+                    </p>
+                </div>
+
+                <!-- Card Sexualidade Humana -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-light text-brand-blue rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Sexualidade Humana</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Atendimento focado no autoconhecimento sexual, superação de tabus, bloqueios e promoção da saúde afetiva em um espaço seguro e sigiloso.
+                    </p>
+                </div>
+
+                <!-- Card Psicologia Puerperal -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-light text-brand-blue rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-baby-carriage"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Psicologia Puerperal</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Suporte emocional e acompanhamento para mulheres e mães durante o puerpério e maternidade, auxiliando na adaptação às mudanças emocionais.
+                    </p>
+                </div>
+
+                <!-- Card Psicomotricidade -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-light text-brand-blue rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-child-reaching"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Psicomotricidade</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Compreensão da relação entre corpo, mente e movimento, integrando aspetos emocionais, cognitivos e corporais no processo terapêutico.
+                    </p>
+                </div>
+
+                <!-- Card Psicoterapia On-line -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all">
+                    <div class="w-14 h-14 bg-brand-light text-brand-blue rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-laptop-medical"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Psicoterapia On-line</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Sessões individuais por videochamada no conforto da sua casa, com atendimentos flexíveis nos períodos da tarde e da noite.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Experiência Profissional -->
+    <section id="experiencia" class="py-16 sm:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Experiência Profissional</h2>
+                <div class="w-20 h-1.5 bg-gradient-brand mx-auto my-4 rounded-full"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="p-6 bg-slate-50 rounded-2xl border-l-4 border-brand-blue shadow-sm">
+                    <span class="text-xs font-bold text-brand-blue bg-brand-light px-3 py-1 rounded-full">2020 – Atual</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-2">Psicóloga Clínica Autônoma</h3>
+                    <p class="text-slate-600 text-sm">Atendimento psicológico 100% on-line nos períodos da tarde e noite. Atuação autônoma e experiência prévia na Plataforma Psicologia Viva.</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl border-l-4 border-brand-cyan shadow-sm">
+                    <span class="text-xs font-bold text-brand-blue bg-brand-light px-3 py-1 rounded-full">2010 – 2025</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-2">Docente no Ensino Público</h3>
+                    <p class="text-slate-600 text-sm">Atuação como professora em diversas escolas da rede pública (EE Parque São Jorge, EE Angelino Pavan, EE Alda Mota Batista, EE Mário Quintana, EE Maria da Conceição e EM Olga Del Fávero).</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl border-l-4 border-slate-400 shadow-sm">
+                    <span class="text-xs font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">2012 – 2019</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-2">Corretora de Redação</h3>
+                    <p class="text-slate-600 text-sm">Avaliação e correção de redações em escolas públicas e privadas, como o Colégio Nacional e o Colégio Teresa Valsé.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Formação Acadêmica -->
+    <section id="formacao" class="py-16 sm:py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Formação & Qualificações</h2>
+                <div class="w-20 h-1.5 bg-gradient-brand mx-auto my-4 rounded-full"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="p-6 bg-white rounded-2xl border-l-4 border-brand-cyan shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <span class="text-xs font-bold text-brand-blue bg-brand-light px-3 py-1 rounded-full">2016 – 2020</span>
+                        <h3 class="text-lg font-bold text-slate-900 mt-2">Graduação em Psicologia</h3>
+                        <p class="text-slate-600 text-sm">Centro Universitário do Triângulo (UNITRI)</p>
+                    </div>
+                    <i class="fa-solid fa-graduation-cap text-3xl text-brand-cyan hidden md:block"></i>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl border-l-4 border-brand-blue shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <span class="text-xs font-bold text-brand-blue bg-brand-light px-3 py-1 rounded-full">2022 – 2023</span>
+                        <h3 class="text-lg font-bold text-slate-900 mt-2">Especialização em Sexualidade Humana e Psicologia Puerperal</h3>
+                        <p class="text-slate-600 text-sm">Faculdade Iguaçu</p>
+                    </div>
+                    <i class="fa-solid fa-award text-3xl text-brand-blue hidden md:block"></i>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl border-l-4 border-brand-dark shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <span class="text-xs font-bold text-brand-blue bg-brand-light px-3 py-1 rounded-full">2015-2016 | 2021-2022</span>
+                        <h3 class="text-lg font-bold text-slate-900 mt-2">Especializações em Psicomotricidade, Supervisão, Inspeção e Gestão Escolar</h3>
+                        <p class="text-slate-600 text-sm">Instituto Passo 1</p>
+                    </div>
+                    <i class="fa-solid fa-certificate text-3xl text-brand-dark hidden md:block"></i>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl border-l-4 border-slate-400 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <span class="text-xs font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">2010 – 2014</span>
+                        <h3 class="text-lg font-bold text-slate-900 mt-2">Graduação em Letras (Português)</h3>
+                        <p class="text-slate-600 text-sm">Universidade Federal de Uberlândia (UFU)</p>
+                    </div>
+                    <i class="fa-solid fa-book-open text-3xl text-slate-400 hidden md:block"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Como Funciona -->
+    <section id="como-funciona" class="py-16 sm:py-20 bg-gradient-to-b from-slate-50 to-brand-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 sm:text-4xl">Como Funciona a Terapia On-line</h2>
+                <div class="w-20 h-1.5 bg-gradient-brand mx-auto my-4 rounded-full"></div>
+                <p class="text-slate-600 text-base sm:text-lg">Inicie o seu atendimento psicológico em apenas 3 passos simples.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm text-center relative">
+                    <div class="w-12 h-12 bg-gradient-brand text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
+                        1
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Primeiro Contato</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Envie uma mensagem pelo WhatsApp para tirar suas dúvidas e verificar a disponibilidade de horários (tarde ou noite).
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm text-center relative">
+                    <div class="w-12 h-12 bg-gradient-brand text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
+                        2
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Sessão por Vídeo</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        As consultas ocorrem via videochamada em ambiente seguro, sigiloso e do conforto do seu ambiente.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm text-center relative">
+                    <div class="w-12 h-12 bg-gradient-brand text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
+                        3
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Evolução Contínua</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Acompanhamento quinzenal ou semanal focado no seu autoconhecimento, estratégias práticas e equilíbrio emocional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé e Canais de Contato Completos -->
+    <footer id="contato" class="bg-slate-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 pb-12 border-b border-slate-800">
+                
+                <!-- Coluna 1: Apresentação -->
+                <div class="space-y-4">
+                    <h3 class="text-xl font-bold text-white">Ana Raquel Marques</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Psicóloga clínica e educadora. Atendimentos on-line com foco em TDAH, Depressão, Sexualidade Humana, Psicologia Puerperal e Saúde Emocional.
+                    </p>
+                    <div class="pt-1">
+                        <span class="inline-block bg-slate-800 text-brand-cyan text-xs font-semibold px-3 py-1.5 rounded-lg border border-slate-700">
+                            CRP: 04/60897
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Links Rápidos -->
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Navegação</h4>
+                    <ul class="space-y-2 text-sm text-slate-400">
+                        <li><a href="#sobre" class="hover:text-brand-cyan transition-colors">Sobre Mim</a></li>
+                        <li><a href="#especialidades" class="hover:text-brand-cyan transition-colors">Especialidades</a></li>
+                        <li><a href="#experiencia" class="hover:text-brand-cyan transition-colors">Experiência Profissional</a></li>
+                        <li><a href="#formacao" class="hover:text-brand-cyan transition-colors">Formação Acadêmica</a></li>
+                        <li><a href="#como-funciona" class="hover:text-brand-cyan transition-colors">Como Funciona a Terapia</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Contatos e Redes Sociais -->
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Canais de Contato</h4>
+                    <ul class="space-y-3.5 text-sm text-slate-400">
+                        <li class="flex items-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-emerald-400 text-xl w-5"></i>
+                            <a href="https://wa.me/5534997764543?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" class="hover:text-white transition-colors">
+                                (34) 99776-4543
+                            </a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-regular fa-envelope text-brand-cyan text-lg w-5"></i>
+                            <a href="mailto:anaraquelpm@hotmail.com" class="hover:text-white transition-colors">
+                                anaraquelpm@hotmail.com
+                            </a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-brands fa-instagram text-pink-400 text-xl w-5"></i>
+                            <a href="https://www.instagram.com/anaraquel.psi/" target="_blank" class="hover:text-white transition-colors">
+                                @anaraquel.psi
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 4: Horários e Modalidade -->
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Atendimento</h4>
+                    <p class="text-sm text-slate-400 mb-3">Sessões 100% On-line:</p>
+                    <div class="space-y-2">
+                        <span class="block bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">
+                            <i class="fa-solid fa-sun text-amber-400 mr-2"></i> Período da Tarde
+                        </span>
+                        <span class="block bg-slate-800 text-slate-300 text-xs font-medium px-3 py-2 rounded-lg border border-slate-700">
+                            <i class="fa-solid fa-moon text-indigo-400 mr-2"></i> Período da Noite
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-8 text-center text-xs text-slate-500 space-y-3">
+                <p class="max-w-3xl mx-auto leading-relaxed">
+                    Atenção: Este site não presta serviços de urgência ou emergência psicológica. Em caso de crise ou urgência, ligue para o CVV (188) ou procure o serviço de saúde mais próximo de sua região.
+                </p>
+                <p>&copy; Ana Raquel Marques - Psicóloga Clínica (CRP 04/60897). Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5534997764543?text=Olá,%20gostaria%20de%20informações%20sobre%20atendimento%20psicológico" 
+       target="_blank" 
+       aria-label="Agendar via WhatsApp"
+       class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-3xl z-50 hover:scale-110 transition-transform duration-300">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript para Menu Mobile -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var menuBtn = document.getElementById('menu-btn');
+            var mobileMenu = document.getElementById('mobile-menu');
+
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mobileMenu.classList.toggle('hidden');
+                });
+
+                var menuLinks = mobileMenu.querySelectorAll('a');
+                for (var i = 0; i < menuLinks.length; i++) {
+                    menuLinks[i].addEventListener('click', function() {
+                        mobileMenu.classList.add('hidden');
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
